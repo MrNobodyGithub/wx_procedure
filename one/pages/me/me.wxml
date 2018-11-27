@@ -1,0 +1,4 @@
+<text> {{text}} </text>
+
+
+<button bindtap='btn_action_request_data'> 点击请求数据 </button>

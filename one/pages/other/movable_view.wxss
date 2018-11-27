@@ -1,0 +1,41 @@
+/* pages/other/movable_view.wxss */
+
+movable-area {
+  height: 400rpx;
+  width: 400rpx;
+  margin: 50rpx;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+movable-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: #1aad19;
+  color: rgb(255, 255, 255);
+}
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section-title {
+  font-size: 34rpx;
+  color: #999;
+  margin-bottom: 40rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  text-align: center;
+  background-color: yellow;
+}
+
+.btn-area {
+  margin: 60rpx 0; 
+  background-color: #1aad19;
+  border-radius: 5px;
+}
+
+ 

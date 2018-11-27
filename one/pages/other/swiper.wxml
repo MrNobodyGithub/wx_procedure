@@ -1,0 +1,23 @@
+<!-- <view style="height:100px;background-color:gray;">test</view> -->
+
+
+<swiper circular='true' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355 " height="150 " />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<button bindtap='tapShowdots'>indicatore-dots hide?</button>
+<button bindtap='tapAutoPlay'>autoplay ?</button>
+
+<slider bindchange='changeInterval'  min='500' max='2000'show-value='1000' value='1000' >interval</slider>
+<slider bindchange='changeDuration' show-value='500' value='500' min='300' max='1000' >duration</slider>
+ 
+
+<!-- <button bindtap="changeIndicatorDots"> indicator-dots </button>
+<button bindtap="changeAutoplay"> autoplay </button>
+<slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
+<slider bindchange="durationChange" show-value min="1000" max="10000"/> duration -->

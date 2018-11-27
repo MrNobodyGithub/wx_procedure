@@ -1,0 +1,4 @@
+<import src="/pages/index/index.vue.wxml" /><template is="01bcb9e8" data="{{ ...$root['0'], $root }}"/>
+
+
+ <!-- <text>asdf</text> -->

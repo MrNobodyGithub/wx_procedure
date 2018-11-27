@@ -1,0 +1,44 @@
+<!-- icon -->
+
+<scroll-view scroll-y style='height:100px;'>
+  <view style='height:80px;background:red;color:green;'>
+    可以上下滑动
+  </view>
+  <view style='height:80px;background:green;'></view>
+  <view style='height:80px;background:cyan;'></view>
+</scroll-view>
+
+<view>
+  <block wx:for="{{iconSize}}" wx:key="*this">
+    <icon type="success" size="{{item}}"></icon>
+  </block>
+</view>
+<view>
+  <block wx:for="{{iconType}}" wx:key="*this">
+    <icon type="{{item}}" size="20"></icon>
+  </block>
+</view>
+<view>
+  <block wx:for="{{iconColor}}" wx:key="*this">
+    <icon type='success' size="20" color="{{item}}"></icon>
+  </block>
+</view>
+
+
+<button bindtap='tapRefresh'>1 refresh</button>
+
+<!-- // button -->
+<view>
+  <text>{{text}}</text>
+</view>
+<view>
+  <text>{{testa}}</text>
+</view>
+<button bindtap='add'>btn add</button>
+<button bindtap='remove'>btn remove</button>
+<view style='height:30px;'></view> 
+
+
+ <!-- <navigator url="/navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator> -->
+<navigator url="/pages/other/swiper?title=第一种跳转方式携带参数_one" hover-class="navigator-hover" style="text-align:center">jump to cycleVC _1</navigator>
+<button bindtap='tapToSwipe'> jump to cycleView _2</button>

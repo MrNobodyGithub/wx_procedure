@@ -1,0 +1,25 @@
+<view class='page-body'>
+
+  <view class='page-section'>
+    <view class='page-section-title'>
+      1movable-view区域小于movable-area </view>
+    <view>
+      <movable-area>
+        <movable-view direction="all" x="{{x}}" y="{{y}}">test area</movable-view>
+      </movable-area>
+    </view>
+    <view class="btn-area">
+      <button bindtap="tapmove" class="page-body-button" type="primary">click me to move(add 10 10) to (30px, 30px)</button>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">movable-view区域大于movable-area</view>
+    <movable-area>
+      <movable-view class="" direction="all">text view </movable-view>
+    </movable-area>
+  </view>
+
+
+
+</view>

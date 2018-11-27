@@ -1,0 +1,16 @@
+<swiper style='width=100%; height:120px; background-color:blue' indicator-dots='true' indicator-color='white' indicator-active-color='green' autoplay='true' interval='2000' circular='false'>
+  <view wx:for="{{slider}}" wx:key="title" style='height = 100%;'>
+    <swiper-item>
+      <image style='width:100% ;height:10px' mode='widthFix' src='{{"https://opera.citymedia.cn"+item.image}}'> img name </image>
+    </swiper-item>
+  </view>
+</swiper>
+
+<view>
+  <view wx:for="{{album}}"> 
+    <image   style=' width:100% ;height:100px' mode='aspectFill' src='{{"https://opera.citymedia.cn"+item.cover}}'> img name </image>
+  </view>
+</view>
+
+
+<view class='ablum-top'> </view>

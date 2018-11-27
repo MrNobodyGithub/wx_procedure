@@ -1,0 +1,15 @@
+<!--pages/other/refresh.wxml-->
+<text>pages/other/refresh.wxml</text>
+
+
+<view style='height:600px'>
+  <view wx:for="{{dataArr}}" wx:key="id">
+    <label style= 'width:100%'>{{item.title}}</label>
+  </view>
+</view>
+
+<!-- <view wx:for="{{dataArr}}" wx:key="title" style='height = 100%;'>
+
+  <image style='width:100% ;height:10px' mode='widthFix' src='{{"https://opera.citymedia.cn"+item.cover}}'> img name </image>
+
+</view> -->

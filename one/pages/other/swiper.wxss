@@ -1,0 +1,8 @@
+/* pages/other/swiper.wxss */
+
+ 
+.topview{
+  height: 100px;
+  background-color: gainsboro;
+}
+ 

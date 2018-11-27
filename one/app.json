@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/other/test",
+    "pages/other/refresh",
+    "pages/home/home",
+    "pages/other/video",
+    "pages/other/video_index",
+    "pages/other/movable_view",
+    "pages/other/swiper",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "orange",
+    "list": [
+      {
+        "pagePath": "pages/other/test",
+        "iconPath": "/pages/images/tab_home_us.png",
+        "selectedIconPath": "/pages/images/tab_home_s.png",
+        "text": "test"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/pages/images/tab_home_us.png",
+        "selectedIconPath": "/pages/images/tab_home_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/pages/images/tab_me_us.png",
+        "selectedIconPath": "/pages/images/tab_me_s.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
