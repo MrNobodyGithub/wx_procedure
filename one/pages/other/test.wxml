@@ -26,7 +26,8 @@
 
 
 <button bindtap='tapRefresh'>1 refresh</button>
-
+<button bindtap='tap_lab'>2 lab</button>
+<button bindtap='tap_picker'>3 picker</button>
 <!-- // button -->
 <view>
   <text>{{text}}</text>

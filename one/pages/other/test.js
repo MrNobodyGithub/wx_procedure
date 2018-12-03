@@ -20,85 +20,91 @@ Page({
     ]
 
   },
-  tapRefresh : function(){
+  tap_lab: function() {
+    wx.navigateTo({
+      url: '/pages/other/label',
+    })
+  },
+  tap_picker: function() {
+    wx.navigateTo({
+      url: '/pages/other/picker',
+    })
+  },
+  tapRefresh: function() {
     wx.navigateTo({
       url: '/pages/other/refresh',
     })
-  }
-  ,
-  tapToSwipe: function () {
+  },
+  tapToSwipe: function() {
     wx.navigateTo({
       url: '/pages/other/swiper?title=第二种跳转方式携带参数_two',
     })
-  }
-  ,
-  add: function () {
+  },
+  add: function() {
     dataArr.push('add new line')
     this.setData({
       text: initdata + '\n' + dataArr.join('\n')
     })
   },
-  remove: function () {
+  remove: function() {
     dataArr.pop()
-    this.setData(
-      {
-        text: initdata + '\n' + dataArr.join('\n')
-      }
-    )
-  } ,
+    this.setData({
+      text: initdata + '\n' + dataArr.join('\n')
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 })

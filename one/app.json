@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/other/test",
-    "pages/other/refresh",
     "pages/home/home",
+    "pages/other/picker",
+    "pages/other/label",
+    "pages/other/refresh",
     "pages/other/video",
     "pages/other/video_index",
     "pages/other/movable_view",

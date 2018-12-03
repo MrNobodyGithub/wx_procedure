@@ -1,0 +1,6 @@
+/* pages/other/picker.wxss */
+
+.section{
+  margin-bottom: 20px;
+  background-color: goldenrod;
+}
